@@ -1,6 +1,6 @@
 node{
    stage('SCM Checkout'){
-     git 'https://github.com/laithl-leo/pipeline-demo'
+     git 'https://github.com/laithl-leo/pipeline-demo.git'
    }
    stage('Compile-Package'){
       // Get maven home path
