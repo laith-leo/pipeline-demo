@@ -1,4 +1,4 @@
-node{
+pipeline{
    stage('SCM Checkout'){
      git 'https://github.com/laith-leo/pipeline-demo.git'
    }
